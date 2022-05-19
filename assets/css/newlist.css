@@ -1,0 +1,166 @@
+/* add new list */
+.new-product-list-menu li a{
+color: black;
+text-decoration: none;
+}
+.new-product-list-menu  li{
+    margin-bottom: 5px;
+}
+.new-product-list-menu .list-group{
+    position: relative;
+}
+.select-new-product-category .btn{
+    background-color: orange;
+    color: white;
+}.select-new-product-category .search-box{
+    width: 40%;
+}
+.new-product-list-menu .active-list::before{ 
+    content: ""; display: block; height: 100%; width: 4px; background-color: #EC7C03; position: absolute; border-radius: 0px 0px 2px 2px ; -webkit-border-radius: 0px 0px 2px 2px ; -moz-border-radius: 0px 0px 2px 2px ; -ms-border-radius: 0px 0px 2px 2px ; -o-border-radius: 0px 0px 2px 2px ;
+    top: 0;
+    left: 0;
+}#new-product-list-wrapper{
+    background-color:#F2F2F2;
+    padding: 30px 0;
+}#new-product-list-wrapper .select-new-product-category input{
+    width: 20% !important;
+}
+
+.main-category-inner , .subcategory-wrapper-inner,.product-list-inner {
+    width: 150px;
+    height: 600px;
+    background-color: white;
+    padding:  0px;
+    overflow-y: scroll;
+    margin-right: 15px;
+}#product-main-category .nav-pills .nav-link.active, #product-main-category .nav-pills .show>.nav-link{
+    background-color: rgb(242, 253, 247) !important;
+    color: black !important;
+    width: 100%;
+} #product-main-category .nav-pills .nav-link {
+    color: black;
+    font-weight: 400;
+    text-align: left;
+    
+}.product-list-inner .nav-link{
+    width: 100%;
+}
+.category-sub-content-wrapper .category-sub-rules{
+  padding: 15px;
+   background-color: #fff;  
+}
+.category-sub-rules .category-sub-rules-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}.category-sub-rules h5{
+    font-size: 16px;
+    
+}
+.category-sub-rules .allowed-product{
+    color: var(--brand-green);
+    font-weight: 600;
+}
+.category-sub-rules span{
+     font-size: 13px;
+    
+}
+
+.category-sub-rules .not-allowed-product{
+    color: red;
+    font-weight: 600;
+}
+.category-sub-rules .category-sub-rule-images{
+    display: flex;
+    align-items: flex-start;
+}
+.category-sub-rule-images .category-sub-rule-image-left p ,.category-sub-rule-images .category-sub-rule-image-right p{
+    font-size: 13px;
+    text-align: center;
+}.category-sub-rule-images .category-sub-rule-image-left  ,.category-sub-rule-images .category-sub-rule-image-right{
+    margin: 0 20px;
+    width: 70px;
+
+}.category-sub-rule-images .category-sub-rule-image-left img  ,.category-sub-rule-images .category-sub-rule-image-right img{
+    width: 100%;
+    border: 1px solid rgb(221, 221, 221);
+}.new-product-list-btn{
+display: flex;
+justify-content: center;
+background-color: #EC7C03;
+width: 90px;margin: 0 auto;
+
+}.new-product-list-btn a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* tabs */
+
+
+@media (max-width: 575.98px){
+   .main-category-inner , .subcategory-wrapper-inner,.product-list-inner{
+       width: 100px;
+       margin-right: 5px;
+   }
+   #product-main-category .nav-pills .nav-link {
+       padding: 10px 5px;
+       font-size: 12px;
+   } 
+    
+}
+/* tabs */
+
+
+
+
+
+@media (max-width: 1300.98px){
+    #new-product-list-wrapper .row .col-2{
+        display: none;
+    }
+     #new-product-list-wrapper .row .col-10{
+         width: 100%;
+     }
+}
+@media (max-width: 992.98px){
+   
+   #new-product-list-wrapper  .category-sub-rules{
+        margin: 20px 0;
+     }
+}
+@media (max-width: 575.98px){
+   
+  #select-new-product-category-main-wrapper ,#select-new-product-category-sub-wrapper{
+    position: relative;
+    
+    background-color: white;
+    width: 120px;
+    height: 530px;
+    margin-right: 20px;
+}
+.select-new-product-category .search-box{
+    width: 100%;
+}
+
+}
+@media (max-width: 400.98px){
+    #select-new-product-category-main-wrapper #select-new-product-category-sub-wrapper {
+    
+    right: -180px;
+   
+}
+
+#select-new-product-category-main-wrapper .select-new-product-category-sub #category-sub-inner-wrapper {
+   
+   
+    left: -160px;
+   
+  
+    width: 150px;
+   
+    
+}
+}
+/* add new list */
